@@ -1,0 +1,39 @@
+body{
+font-family: Arial;
+background:#e6e6e6;
+display:flex;
+justify-content:center;
+margin-top:80px;
+}
+
+.container{
+background:white;
+padding:25px;
+border-radius:10px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input{
+padding:8px;
+width:65%;
+}
+
+button{
+padding:8px;
+background:green;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+li{
+margin-top:10px;
+display:flex;
+justify-content:space-between;
+}
+
+.completed{
+text-decoration: line-through;
+color:gray;
+}
